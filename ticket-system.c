@@ -235,7 +235,6 @@ char *generateTicketNo(char *name, int length)  //makes the ticket no. format
 
 Ticket *addTicketToStart(Ticket *startPtr){         //adds node to an empty list
     Ticket *newTicket = MakeNewTicket(NULL);
-    if(startPtr != NULL)
     return newTicket;
 }
 
